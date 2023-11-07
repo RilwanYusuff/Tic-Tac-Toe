@@ -27,7 +27,7 @@ function Board({ xIsNext, squares, onPlay }) {
     onPlay(nextSquares);
   }
 
-  // Rest of your Board component code..
+
 
   const winner = calculateWinner(squares);
   let status;
